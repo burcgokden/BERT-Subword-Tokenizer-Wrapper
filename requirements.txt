@@ -1,3 +1,4 @@
 tensorflow-datasets==4.2.0
 tensorflow-text-nightly==2.6.0.dev20210417
 tf-nightly==2.6.0.dev20210417
+python==3.7.7
