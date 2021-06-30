@@ -1,15 +1,15 @@
-##BERT Subword Tokenizer for Machine Translation
+## BERT Subword Tokenizer for Machine Translation
 
 This repository implements a wrapper code for generating a Wordpiece Vocabulary and BERT Tokenizer model from a dataset using tensorflow-text package. The tokenizers generated with this wrapper script are used in the research article: [Power Law Graph Transformer for Machine Translation and Representation Learning](https://github.com/burcgokden/Power-Law-Graph-Transformer/blob/main/plgt_paper.pdf)
 
 Detailed explanation of subword tokenizer and wordpiece vocabulary generation can be found at [Subword Tokenizers @ tensorflow.org](https://www.tensorflow.org/tutorials/tensorflow_text/subwords_tokenizer) 
 
-####Key features
+#### Key features
 
 - Generates a Wordpiece Vocabulary and BERT Tokenizer from a tensorflow dataset for machine translation.
 - Simple interface that takes in all the arguments and generates Vocabulary and Tokenizer model.
 
-####Sample Run:
+#### Sample Run:
 
 Sample run generates Vocabulary and Tokenizer model from tensorflow dataset for PT-EN machine translation task from tensorflow dataset: [ted_hrlr_translate/pt_to_en](https://www.tensorflow.org/datasets/catalog/ted_hrlr_translate#ted_hrlr_translatept_to_en) 
 
